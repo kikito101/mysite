@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #40514E;
+  background-color: #d2fafb;
 }
 
 h1 {
@@ -38,15 +39,15 @@ a:hover {
 }
 
 hr {
-   border-style: none;
-   border-top: 8px dotted lightgray;
-   width: 5%;
-   margin: 100px auto;
- }
+  border-style: none;
+  border-top: 8px dotted lightgray;
+  width: 5%;
+  margin: 100px auto;
+}
 
- p {
-   line-height: 2;
- }
+p {
+  line-height: 2;
+}
 
 .top-container {
   background-color: #ecfcff;
@@ -55,14 +56,14 @@ hr {
 }
 
 .middle-container {
-  margin: 100px 0;
+  margin: 50px 0;
+  background-color: #d2fafb;
 }
 
 .bottom-container {
   background-color: #66BFBF;
   margin: 0;
   padding: 50px 0 20px;
-
 }
 
 .top-cloud {
@@ -83,7 +84,6 @@ hr {
 
 .skill-row {
   width: 50%;
-  text-align: center;
   margin: 100px auto;
   text-align: left;
   line-height: 2;
@@ -93,6 +93,7 @@ hr {
   margin-right: 30px;
   float: left;
   width: 35%;
+  border: solid #66BFBF;
 }
 
 .python-img {
@@ -111,6 +112,7 @@ hr {
 
 .copyright-text {
   color: #EAF6F6;
+  padding-top: 10px;
 }
 
 .contact-message {
